@@ -1,5 +1,6 @@
 import csv
-import matplotlib.pyplot as plt
+import plotly.express as plt # pip install plotly-express
+import pandas as pa # pip install streamlit
 
 # Read the CSV file containing bank statements
 with open('statements.csv', 'r') as f:
